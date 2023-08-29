@@ -1,0 +1,144 @@
+
+.App{
+    margin-left: 30%;
+    margin-top: 2%;
+}
+.nav{
+    display: flex;
+    list-style-type: none;
+    background-color: rgb(0, 0, 54);
+    color: white;
+    padding: 2%;
+    text-align: center;
+    padding-left: 34%;
+}
+.logo{
+    height: 50px;
+    width: 50px;
+    
+}
+.nav-head{
+    font-size: 24px;
+    margin-left: 1%;
+    margin-top: 1%;
+}
+
+.proceed{
+    color: white;
+    margin-left: 0%;
+    height: 25px;
+    width: 25px;
+    padding: 50%;
+    margin-left: 1500%;
+     z-index: 10;
+}
+.no{
+    margin-left: 45%;
+    margin-top: 12.5px;
+    color: black;
+    font-size: 11px;
+}
+.proceed:hover{
+    color: rgba(2, 2, 162, 0.934);
+    background-color: antiquewhite;
+    border-radius: 50%;
+  
+}
+ 
+.productphone,.productipad,.productmacbook,.productimac{
+    background-color: white;
+    height: 510px;
+    width: 500px;
+    border-radius: 20px;
+    box-sizing: border-box;
+    box-shadow: rgb(197, 196, 196) 2px 2px 5px 5px;
+    padding-left: 5%;
+    margin-bottom: 5%;
+    padding-top: 3.5%;
+}
+.productphone0,.productipad0,.productmacbook0,.productimac0{
+    display: none;
+}
+.iphone{
+    display: block;
+    height: 220px;
+    width: 220px;
+    padding-top: -3%;
+    margin-left: 11%;
+    margin-top: -1%;
+    margin-bottom: 2%;
+}
+.iphone0{
+    display: none;
+}
+.ipad{
+    height: 220px;
+    width: 220px;
+    padding-top: -3%;
+    margin-left: 12%;
+    margin-bottom: 1%;
+}
+.imac{
+    height: 250px;
+    width: 250px;
+    margin-top: -2%;
+    padding-bottom: 2%;
+    margin-left: 10%;
+}
+.mac{
+    height: 280px;
+    width: 280px;
+    margin-left: 8%;
+    padding-bottom: .5%;
+    margin-top: -7%;
+    margin-bottom: -10%;
+}
+.macm{
+    height: 190px;
+    width: 350px;
+    margin-left: 8%;
+    padding-bottom: .5%;
+    margin-top: 15%;
+    margin-bottom: -10%;
+}
+
+button{
+    background-color: rgba(5, 5, 102, 0.932);
+    border-radius: 10px;
+    color: antiquewhite;
+    padding: 3%;
+    margin-top: 5%;
+    margin-left: 28%;
+    border: none;
+    outline: none;
+}
+button:hover{
+    border: 1px 1px white;
+    transform: scale(1.1,1.1);
+}
+img{
+    margin-left: 2%;
+}
+.list{
+    padding-left: 48%;
+    padding-top: 1.5%;
+}
+.filter {
+   margin-left: 3%;
+   border: 1.5px solid rgb(169, 170, 170);
+   border-radius: 8px;
+   width: 50px;
+   height: 25px;
+   margin-top: 2%;
+   padding: 5px;
+}
+.filter select{
+    width: 15px;
+    border: none;
+
+
+}
+select:focus{
+    outline: none;
+    border: none;
+}

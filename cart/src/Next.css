@@ -1,0 +1,93 @@
+.head1{
+    text-align: center;
+    margin-top: 3%;
+    margin-bottom: 3%;
+}
+.page{
+    padding-bottom: 8%;
+}
+.head2{
+    text-align: center;
+    margin-top: 1%;
+   
+}
+.tab{
+    margin-left: 10%;
+    border-collapse: collapse;
+    width: 80%;
+}
+table {
+    text-align: center;
+  
+}
+table th{
+    text-align: center;
+}
+ tr,td,th{
+    height: 50px;
+   
+   
+    padding-bottom: 5%;
+    text-align: center;
+
+}
+tr{
+    height: 100px;
+    padding-top: 50%;
+  
+}
+
+table img {
+    height: 100px;
+    width: 115px;
+    margin-top: -32%;
+    
+}
+table p{
+    height: 100px;
+    width: 110px;
+    text-align: center;
+    margin-left: 19%;
+    margin-bottom: 3%;
+}
+.fn{
+    display: flex;
+}
+table button{
+    height: 40px;
+    width: 100px;
+    margin-top: -7%;
+    margin-left: -50%;
+}
+table button:hover{
+    background-color: rgb(255, 255, 255);
+    color: rgba(5, 5, 102, 0.932);
+    border: solid rgba(5, 5, 102, 0.932) 0.5px ;
+    transform: scale(1.1,1.1);
+}
+.btn{
+    display: flex;
+   margin-left: 50%;
+}
+table input{
+    height: 30px;
+    width: 40px;
+   margin-top: -7%;
+    text-align: center;
+    outline: none;
+    border: none;
+}
+.increment-btn,.decrement-btn{
+    height: 30px;
+    width: 30px;
+    border-radius: 8px;
+
+}
+.quantity{
+    text-align: left;
+    margin-top: -2%;
+    width: 30px;
+}
+.increment-btn{
+    margin-left: 0%;
+}
